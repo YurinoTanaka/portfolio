@@ -1,0 +1,84 @@
+body {
+  max-width: 1440px;
+  margin: 0;
+  font-family: "Noto Sans Japanese", "Meiryo", "Arial", sans-serif;
+  background-color: #ffffff;
+}
+
+/* ヘッダー */
+#navigation {
+  display: flex;
+  justify-content: center;
+}
+
+#navigation ul {
+  width: 980px;
+  height: 115px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  font-size: 34px;
+  padding: 0px 16px 32px 16px;
+  margin: 0;
+  position: relative;
+}
+
+#navigation li {
+  list-style: none;
+}
+
+#navigation a {
+  text-decoration: none;
+  color: #000000;
+}
+
+#nav-home {
+  /* width: 205px;
+  height: 51px; */
+  border: 1px solid;
+  padding: 3px 19px;
+  position: absolute;
+  top: 32px;
+  left: 16  px;
+}
+
+#nav-about {
+  position: absolute;
+  top: 32px;
+  left: 740px;
+  margin-right: 18px;
+}
+
+#nav-works {
+  position: absolute;
+  top: 32px;
+  left: 859px;
+}
+
+/* メイン */
+#main-image {
+  width: 100%;
+}
+
+/* About */
+#section-one {
+  display: flex;
+  justify-content: center;
+}
+
+/* Works */
+#section-two {
+  display: flex;
+  justify-content: center;
+}
+
+/* フッター */
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+/*====================
+ スマートフォン用のスタイル
+=====================*/
+
